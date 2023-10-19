@@ -1,19 +1,44 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Formulario</title>
 </head>
+
 <body>
+    <!-- https://elcssar.com/html5/input-type-email-regex-pattern -->
     <h1>Formulario de contacto</h1>
-    <from action="">
-        
-        <label for="nombre">Nombre:</label>
+    <form action="" method="post" id="formularioRegistro">
+
+        <label for="nombre">Nombre:</label><br>
         <input type="text" id="nombre" name="nombre" required><br>
-        <label for="apellido">Apellido:</label>
+
+        <label for="apellido">Apellido:</label><br>
         <input type="text" id="apellido" name="apellido" required><br>
+
+        <label for="dni">DNI:</label><br>
+        <input type="number" id="dni" name="dni" required><br>
+
+        <label for="password">Password:</label><br>
+        <input type="password" id="password" name="password" required><br>
+
         <input type="submit" value="Enviar Datos">
-    </from>
+
+    </form>
+    <!-- ruta relativa -->
+    <div>
+        <button>
+            <a href="../03 -clasehtml/index.html"></a>
+        </button>
+    </div>
+    <!-- ruta absoluta -->
+    <div>
+        <button>
+            <a href="../03 -clasehtml/index.html"></a>
+        </button>
+    </div>
 </body>
+
 </html>
