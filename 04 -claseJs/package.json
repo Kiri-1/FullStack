@@ -1,0 +1,17 @@
+{
+  "dependencies": {
+    "nodemon": "^3.0.1"
+  },
+  "name": "fullstack-1",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon 04-claseJs/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
