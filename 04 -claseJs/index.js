@@ -1,5 +1,4 @@
 
-
 //Variables
 var nombre = "Pepe";    // number 
 let edad = 15
